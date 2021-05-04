@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Promenné a funkce</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Formulář</h1>
+	<button onclick="ukazPrompt()">Zadej rozměry pračky</button>
+	<p id="vysledek"></p>
+	<label>
+		Číslo:
+		<input name="cislo1" type="number" />
+	</label>
+	<label>
+		Číslo:
+		<input name="cislo2" type="number" />
+	</label>
+	<button onclick="secti()">Sečti</button>
+	<p id="soucet"></p>
+
+	<label>
+		Rodné číslo:
+		<input name="rodne-cislo" type="number" minlength="9" maxlength="10" />
+	</label>
+	<button onclick="zkontrolujCislo()">Odeslat</button>
+	
+	<script type="text/javascript" src="input.js"></script>
+</body>
+</html>
